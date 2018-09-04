@@ -28,5 +28,12 @@ describe("FizzBuzz", function() {
     }); 
   });
 
+  describe("multiples of 3 and 5", function() {
+    it("should output Fizz", function(){
+      expect(fizzbuzz.play(15)).toEqual("FizzBuzz")
+      expect(fizzbuzz.play(60)).toEqual("FizzBuzz")
+      expect(fizzbuzz.play(330)).toEqual("FizzBuzz")
+    }); 
+  });
 
 });
