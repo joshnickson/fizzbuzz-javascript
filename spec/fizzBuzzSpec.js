@@ -12,4 +12,11 @@ describe("FizzBuzz", function() {
     }); 
   });
 
+  describe("multiples of 3", function() {
+    it("should output Fizz", function(){
+      expect(fizzbuzz.play(3)).toEqual("Fizz")
+    }); 
+  });
+
+
 });
